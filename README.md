@@ -1,4 +1,5 @@
 🧠 Customer Shopping Behavior Analysis — Data Analytics Project
+
 📌 Overview
 This project explores customer shopping behavior to uncover insights into spending patterns, product preferences, and subscription trends. Using Python (Pandas) for data exploration and MySQL for structured querying, the project provides business intelligence that helps guide marketing, sales, and retention strategies.
 
