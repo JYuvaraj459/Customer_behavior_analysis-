@@ -22,14 +22,23 @@ Transaction Details: Category, Item Purchased, Purchase Amount, Review Rating, S
 Missing Data: 37 null values found in Review Rating (handled via median imputation by category)
 
 🛠️ Tools Used
+
 Purpose	Tool / Technology
+
 Data Loading & EDA	Python (Pandas, NumPy, Matplotlib, Seaborn)
+
 Database Querying	MySQL Workbench
+
 Visualization	Power BI
+
 Presentation	Gamma App
+
 Report Creation	ReportLab (PDF)
+
 🧩 Steps in the Project
+
 1. Data Loading (Python)
+
 
 Loaded dataset using pandas.read_csv()
 
@@ -38,6 +47,7 @@ Checked data structure with .info() and .describe()
 Verified column types and initial data quality
 
 2. Data Cleaning & EDA (Pandas)
+
 
 Identified missing values using df.isnull().sum()
 
@@ -52,6 +62,7 @@ age_group: Categorized customers as Young Adult, Adult, Middle-Aged, or Senior
 purchase_frequency_days: Mapped frequency labels (Weekly → 7, Annually → 365)
 
 3. Database Integration & SQL Analysis (MySQL)
+
 
 Exported the cleaned DataFrame from Python into MySQL Workbench
 
@@ -69,6 +80,7 @@ Top 3 Seasonal Products: Most purchased items by season
 
 4. Dashboard in Power BI
 
+
 Built an interactive Power BI dashboard to visualize key business metrics:
 
 Bar Charts: Average spend by category, revenue by gender
@@ -81,11 +93,13 @@ Slicers: Filters for Age Group, Location, and Season
 
 5. Report & Presentation
 
+
 Generated a clean PDF report summarizing the workflow and findings
 
 Created a Gamma presentation for stakeholder communication
 
 📊 Dashboard Overview
+
 
 The Power BI dashboard delivers actionable visual insights into:
 
@@ -98,6 +112,7 @@ Impact of discounts and shipping type on sales
 Subscription trends and loyalty segmentation
 
 🧠 Results & Key Insights
+
 
 Loyal customers (3,116) dominate the customer base.
 
@@ -112,6 +127,7 @@ Many repeat buyers are not subscribed, indicating growth potential in subscripti
 🚀 How to Run the Project
 
 Clone Repository:
+
 
 git clone https://github.com/yourusername/customer-shopping-behavior-analysis.git
 cd customer-shopping-behavior-analysis
