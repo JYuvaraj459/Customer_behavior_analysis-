@@ -127,11 +127,7 @@ Many repeat buyers are not subscribed, indicating growth potential in subscripti
 🚀 How to Run the Project
 
 Clone Repository:
-
-
-git clone https://github.com/JYuvaraj459/customer-shopping-behavior-analysis.git
-cd customer-shopping-behavior-analysis
-
+https://github.com/JYuvaraj459/Customer_behavior_analysis-
 
 Install Dependencies:
 
